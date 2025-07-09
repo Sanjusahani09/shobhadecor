@@ -1,30 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Shobha Decor | Under Maintenance</title>
+  <meta charset="UTF-8">
+  <title>Shobha Decor - Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: #f7f1eb;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding-top: 100px;
-      color: #4a2f1b;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fff5ea, #fbe4d8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #5c3a21;
     }
-    .box {
-      display: inline-block;
+
+    .container {
+      background: #ffffff;
       padding: 40px;
-      border: 2px dashed #b5835b;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 400px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #5c3a21;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .contact {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #20b955;
     }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="container">
     <h1>Shobha Decor</h1>
-    <p>Our website is currently under maintenance.</p>
-    <p>We’ll be live soon. Visit our showroom or call us at <strong>+91-8310762199</strong></p>
+    <p>Our website is currently under maintenance.<br>We’ll be live very soon!</p>
+    <p class="contact">📞 Call us: +91-8310762199</p>
+
+    <!-- Optional WhatsApp button -->
+    <a class="whatsapp-btn" href="https://wa.me/918310762199" target="_blank">Chat on WhatsApp</a>
   </div>
 </body>
 </html>
